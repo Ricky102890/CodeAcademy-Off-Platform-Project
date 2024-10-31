@@ -1,15 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     width: 100%;
+    max-width: 100wv;
     height: auto;
     min-height: 100vh;
     font-family: 'Apercu', sans-serif;
     background: black;
     color: white;
     text-align: center;
+    padding: 2rem;
+}
+h1, h2, h3 {
+    font-weight: 100;
 }
 h1 {
     font-size: 4rem;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: gray;
 }
 a {
+    display: block;
     color: aquamarine;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    margin: 2rem auto;
+}
+footer {
+    font-size: 2rem;
+    text-align: right;
+    color: gray;
 }
